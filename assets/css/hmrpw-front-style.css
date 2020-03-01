@@ -1,0 +1,104 @@
+.hmrpw-front-view{
+    border: 1px solid #ccc;
+    margin: 25px 0;
+    width: 100%;
+}
+.hmrpw-front-view ul{
+    width:100%;
+    padding: 0px!important;
+    list-style: none;
+    border: 0px solid #009900;
+}
+.hmrpw-front-view ul li{
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    border-bottom: 1px dashed #ccc;
+    display:flex;
+}
+.hmrpw-front-view li.odd{
+    background: #fafafa;
+}
+.hmrpw-front-view li:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.hmrpw-shortcode-view ul li, .hmrpw-widget-view ul li{
+    display: flex;
+    flex-wrap: wrap;
+    min-height:50px;
+}
+.hmrpw-widget-view ul li .hmrpw-widget-thumbnail,
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-thumbnail{
+    min-height:50px; 
+    border: 0px solid #FF0000; 
+    width: 150px; 
+    margin-right:5px;
+}
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-thumbnail{
+    margin-right: 10px;
+}
+.hmrpw-widget-view ul li .hmrpw-widget-thumbnail{
+    width: 80px;
+}
+
+.hmrpw-widget-view ul li .hmrpw-widget-thumbnail img,
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-thumbnail img{
+    margin: 0px auto;
+}
+
+.hmrpw-widget-view ul li .hmrpw-widget-content,
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-content{
+    flex: 1;
+    min-height: 50px;
+    border: 0px solid #009900;
+}
+/* Title */
+.hmrpw-widget-view ul li .hmrpw-widget-content a.hmrpw-title,
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-content a.hmrpw-title{
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    color: #06f;
+    display: inline-block;
+    margin: 5px 0 0 0;
+    padding: 0px;
+    border: 0px solid #000;
+    font-size: 18px;
+    line-height: 24px;
+}
+.hmrpw-widget-view ul li .hmrpw-widget-content a.hmrpw-title{
+    font-size: 14px;
+    line-height: 18px;
+}
+/* Content */
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-content p.hmrpw-content{
+    font-size: 14px;
+    line-height: 20px;
+    border: 0px solid #000;
+    color: #242424;
+}
+
+.hmrpw-widget-view ul li .hmrpw-widget-content p.hmrpw-time-category,
+.hmrpw-shortcode-view ul li .hmrpw-shortcode-content p.hmrpw-time-category{
+    margin: 2px 0 0;
+    font-size: 11px;
+    line-height: 14px;
+    border: 0px solid #000;
+}
+
+/*=============================
+Media Responsive CSS
+==============================*/
+@media(max-width:767px){
+    .hmrpw-shortcode-view ul li{
+        display: block;
+        padding: 5px;
+    }
+    .hmrpw-shortcode-view ul li .hmrpw-shortcode-thumbnail{
+        margin: 5px auto 10px;
+    }
+}
+/*=============================
+End Media Responsive CSS
+==============================*/

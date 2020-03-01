@@ -1,0 +1,41 @@
+/* Alert Bar Started */
+.hmrpw-alert {
+    padding: 20px!important;
+    color: white;
+}
+.hmrpw-alert.success {
+    background-color: #6ABD6E;
+}
+.hmrpw-alert.error {
+    background-color: #F66358;
+}
+.hmrpw-alert.warning {
+    background-color: #FFAA2B;
+}
+.hmrpw-alert.info {
+    background-color: #47A8F5;
+}
+.hmrpw-closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hmrpw-closebtn:hover {
+color: black;
+}
+/* Alert Bar Ended */
+
+#hmrpw_shortcode{
+    padding: 10px;
+    text-align: center;
+    border: 2px dotted #FF0000;
+    background: #FFAA2B;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 430px;
+}
